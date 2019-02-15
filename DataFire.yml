@@ -8,9 +8,13 @@ paths:
   /get_hello_world:
     get:
       action: get_hello_world
+  /greeting:
+    get:
+      action: return_result
 actions:
   hello_world: ./actions/hello_world.js
   get_hello_world: ./actions/get_hello_world.js
+  return_result: ./actions/return_result.js
 tests:
   test_hello_world:
     action: hello_world
