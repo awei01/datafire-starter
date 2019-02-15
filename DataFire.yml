@@ -1,0 +1,14 @@
+options:
+  cors: true
+tasks: {}
+paths:
+  /hello_world:
+    get:
+      action: hello_world
+actions:
+  hello_world: ./actions/hello_world.js
+tests:
+  test_hello_world:
+    action: hello_world
+    input:
+      name: Foo
