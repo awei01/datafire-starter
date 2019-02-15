@@ -4,7 +4,7 @@ tasks: {}
 paths:
   /hello_world:
     get:
-      action: hello_world
+      action: get_hello_world
 actions:
   hello_world: ./actions/hello_world.js
   get_hello_world: ./actions/get_hello_world.js
