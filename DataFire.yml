@@ -15,6 +15,7 @@ actions:
   hello_world: ./actions/hello_world.js
   get_hello_world: ./actions/get_hello_world.js
   return_result: ./actions/return_result.js
+  get_result: ./actions/get_result.js
 tests:
   test_hello_world:
     action: hello_world
