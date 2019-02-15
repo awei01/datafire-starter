@@ -1,0 +1,18 @@
+{
+  "name": "dry-worm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF3ZWkwMUBnbWFpbC5jb20iLCJpYXQiOjE1NTAyNTY3MDcsImV4cCI6MTU1MDM0MzEwN30.xvOq7orGm741jpNUr6d48vCrSbiMNkJ2ZFoYYkzcs20@api.datafire.io/git/dry-worm"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "datafire": "^2.26.0"
+  }
+}

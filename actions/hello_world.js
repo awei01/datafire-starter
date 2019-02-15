@@ -9,6 +9,6 @@ module.exports = new datafire.Action({
     default: "world"
   }],
   handler: async (input, context) => {
-    return 'Hello, ' + input.name;
+    return 'Goodbye, ' + input.name;
   },
 });
