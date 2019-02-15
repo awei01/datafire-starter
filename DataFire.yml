@@ -11,6 +11,9 @@ paths:
   /greeting:
     get:
       action: return_result
+  /get_greeting:
+    get:
+      action: get_result
 actions:
   hello_world: ./actions/hello_world.js
   get_hello_world: ./actions/get_hello_world.js
