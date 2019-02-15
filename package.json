@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./node_modules/datafire/bin/datafire serve"
   },
   "repository": {
     "type": "git",
-    "url": "https://eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF3ZWkwMUBnbWFpbC5jb20iLCJpYXQiOjE1NTAyNTY3MDcsImV4cCI6MTU1MDM0MzEwN30.xvOq7orGm741jpNUr6d48vCrSbiMNkJ2ZFoYYkzcs20@api.datafire.io/git/dry-worm"
+    "url": "git@github.com:awei01/datafire-dry-worm.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "datafire": "^2.26.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
